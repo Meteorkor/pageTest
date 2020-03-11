@@ -1,5 +1,9 @@
 ## Welcome to GitHub Pages
 
+이슈를 통해서 사진 첨부도 간단하군요
+![5335333_690px](https://user-images.githubusercontent.com/5335333/76379888-b5862b00-6394-11ea-9a28-1f37677041c5.jpg)
+
+
 You can use the [editor on GitHub](https://github.com/Meteorkor/pageTest/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
