@@ -110,8 +110,19 @@ var locationBtnHtml = '<a href="#" class="btn_mylct"><span class="spr_trff spr_i
 			content: contentString
 		});
 
-		//"remain_stat": "empty",
-		var color = store.remain_stat=='empty'? 'red' : (store.remain_stat=='plenty'? 'green' : 'yellow');
+		//"remain_stat": "empty","plenty","few","some"
+		var color="";
+		switch(store.remain_stat){
+		case 'plenty':
+			color = "green";
+			break;
+		case 'few':
+		case 'some':
+			color = 'yellow';
+			break;
+		default:
+			color = 'red';
+		}
 
 			var localMarker = new naver.maps.Marker({
 				position: new naver.maps.LatLng(store.lat, store.lng),
